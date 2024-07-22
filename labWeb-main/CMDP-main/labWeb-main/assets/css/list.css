@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+img{
+    display: block;
+    margin:15px auto;
+    width:100px;
+    height:auto;
+}
+
+h1 {
+  color: #000000;
+}
+
+#user-list {
+  display: flex;
+  flex-wrap: wrap; /* Permet aux éléments de se déplacer sur plusieurs lignes */
+  justify-content: center; /* Centre les éléments horizontalement */
+  gap: 10px; /* Espace entre les éléments */
+}
+
+.user-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  width: 400px; /* Largeur pour afficher deux éléments par ligne avec un espace entre eux */
+  height: 200px;
+  box-sizing: border-box; /* Inclut padding et bordure dans la largeur */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .user-container {
+    width: 90%; /* Largeur pour un affichage en colonne sur petits écrans */
+  }
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.user-username,
+.user-email {
+  font-size: 1em;
+  margin: 5px 0;
+}

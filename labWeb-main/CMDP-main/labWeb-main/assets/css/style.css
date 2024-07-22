@@ -1,0 +1,113 @@
+body#mainbody{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    color:white;
+    background-color: whitesmoke;
+}
+
+div#cadre{
+    width: 650px;
+    height:450px;
+    border:1px solid #000000;
+    background-color:white;
+    border-radius: 15px;
+    box-shadow: -4px 4px 8px gray;
+}
+img{
+    display: block;
+    margin:15px auto;
+    width:220px;
+    height:auto;
+}
+div.button{
+    display: flex;
+    justify-content: space-evenly;
+}
+a.btn{
+    border:1px solid #0973b6;
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px gray;
+}
+a.btn:first-of-type{
+    background-color: #d33a2e;
+    color:#ffffff;
+    transition: background-color 1s ease;
+}
+a.btn:hover{
+    background-color: #0572b4;
+    border: 2px solid #d33a2e;
+}
+#alert{
+    color: red;
+    z-index : 10;
+    margin-top: 10px;
+}
+
+
+body#ins{
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    color:white;
+    background-color: rgb(0, 0, 55);
+}
+
+div#conteneur{
+    display:flex;
+    justify-content: center;
+}
+
+div.cont-title{
+    width: 350px;
+    height: 500px;
+    border:2px solid #0973b6;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.login{
+    display: block;
+    width:50px;
+    height:auto;
+}
+
+.submitbtn:hover {
+    background-color:  #0973b6;
+    color: rgb(255, 255, 255);
+}
+
+.submitbtn{
+    background-color: rgb(0, 0, 55);
+    border:1px solid #0973b6;
+    height: 20px;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: 1s ease-in-out;
+    color: #ffffff;
+}
+
+input{
+    font-family: sans-serif;
+    background-color:  rgb(0, 0, 55);
+    border: 1px solid #0973b6;
+    border-radius: 5px;
+    color: #ffffff5c;
+    margin-bottom: 10px;
+    padding: 7px;
+    outline: none;
+}
+
+.connexion, .inscription{
+    margin-top: 40px;
+
+}
